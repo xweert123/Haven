@@ -1,0 +1,16 @@
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_shockedback.anm\""
+send_character_message 1 "set_eye_dir -138.997 22.7793 77.327 1"
+send_character_message 1 "set_head_target -139.316 22.452 77.2394 1"
+set_character_pos 1 -138.987 22.6097 79.5842 89
+set_cam -140.398 23.2973 77.8288 1.03 -150.21 -0.11 27.6355
+#name "Intro"
+#participants 1
+
+say 1 "Mystique" "What the-..?"
+set_cam -140.245 23.469 79.4346 -23.15 -24.7 0.62 27.6355
+say 1 "Mystique" "There's blood."
+send_character_message 1 "set_head_target -139.328 22.9062 77.4562 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+set_character_pos 1 -138.99 22.6097 79.6348 89
+set_cam -139.224 23.517 76.9204 -3.82 -175.21 2.17 17.6946
+say 1 "Mystique" "Something's not right."

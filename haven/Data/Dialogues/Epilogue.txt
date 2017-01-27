@@ -1,0 +1,94 @@
+
+#name "Intro"
+#participants 3
+
+set_character_pos 2 -257.677 44.3327 234.44 -123
+set_character_pos 1 -259.856 44.3632 236.997 0
+send_character_message 1 "set_animation \"Data\Animations\r_sleep.anm\""
+send_character_message 1 "set_torso_target -258.436 44.0186 236.371 1"
+send_character_message 1 "set_head_target -259.865 43.6443 236.624 1"
+set_cam -258.245 44.205 236.798 0 90.39 0 44.5892
+say 3 "..." "'CITY: VYL' [wait 0.2] 'COUNTRY: HAVEN'"
+say 3 "..." "Today is the first day of Celebration Week."
+say 3 "..." "A whole week of happiness and pride, dedicated to the citizens of Vyl."
+say 3 "..." "Of course, you won't have a Celebration Week, will you, Myst?"
+say 3 "..." "Nobody will."
+say 3 "..." "Your city is no longer the bustling trading center it used to be."
+say 3 "..." "As time passes, your city gets poorer and poorer.."
+say 3 "..." ".. and the Protection from the wolves gets more demanding."
+say 3 "..." "Open your eyes, Myst."
+say 3 "..." "You have a long Journey ahead of you."
+say 1 "Myst" "..."
+send_character_message 2 "set_head_target -259.59 44.075 236.786 1"
+set_cam -258.415 44.2205 237.58 -0.05 54.37 -0.58 45.6438
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_kneeling_low.anm\""
+set_character_pos 2 -258.375 44.2361 236.682 -172
+say 2 "Fika" "Myst, wake up..!"
+send_character_message 1 "set_head_target -259.865 43.6768 236.466 1"
+send_character_message 2 "set_head_target -259.59 44.0143 236.712 1"
+say 1 "Myst" ".. Hhrmph.."
+say 2 "Fika" "Wake up, Myst!"
+send_character_message 1 "set_head_target -259.346 44.133 236.712 1"
+say 1 "Myst" ".. a[wait0.1]a[wait0.1]a[wait0.1]a[wait0.1]a[wait0.1]ahh.."
+send_character_message 1 "set_torso_target -259.108 43.861 237.097 1"
+set_cam -257.807 44.8779 237.291 -11.73 79.17 -1.14 35.8109
+send_character_message 1 "set_head_target -259.38 44.133 237.142 1"
+set_character_pos 2 -258.504 44.1649 236.82 -179
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_worriedpose_1.anm\""
+send_character_message 2 "set_head_target -259.392 44.2288 236.952 1"
+set_character_pos 1 -259.856 44.3395 237.069 0
+send_character_message 1 "set_animation \"Data\Animations\r_sit_cross_legged.anm\""
+say 1 "Myst" ".[wait 0.2].[wait 0.2]."
+send_character_message 1 "set_torso_target -259.133 43.861 237.002 1"
+send_character_message 1 "set_head_target -259.048 44.7799 236.919 1"
+say 1 "Myst" "Fika?"
+send_character_message 2 "set_head_target -259.726 44.4095 237.103 1"
+send_character_message 1 "set_head_target -259.056 44.8084 237.243 1"
+set_character_pos 2 -258.535 44.1649 237.052 -179
+set_cam -260.457 44.8351 237.811 -1.08 -67.58 -0.2 22.6697
+say 2 "Fika" "We need to leave, Myst.  Now."
+set_cam -257.801 44.5284 238.692 0.67 49.46 -0.87 18.2274
+say 1 "Myst" "Calm down, what's going on?"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_worriedpose_2.anm\""
+set_cam -260.056 44.8204 238.62 -0.91 -43.69 -0.62 26.807
+say 2 "Fika" "The wolves, Myst..  They sent bandits to collect protection."
+send_character_message 2 "set_head_target -258.78 44.9988 237.753 1"
+set_cam -257.692 44.8698 235.965 0.86 140.43 0.69 30.6208
+send_character_message 1 "set_torso_target -258.42 44.2606 236.886 1"
+send_character_message 1 "set_head_target -258.262 44.9513 236.317 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_welcome.anm\""
+set_character_pos 2 -258.33 44.1649 236.31 -108
+set_character_pos 1 -258.808 44.3144 237.735 68
+say 1 "Myst" "What?  Now?"
+send_character_message 2 "set_torso_target -258.072 44.3762 236.579 1"
+set_cam -257.833 44.95 235.831 0.74 149.48 0.82 25.1208
+send_character_message 1 "set_torso_target -258.732 44.2606 236.726 1"
+set_character_pos 1 -258.808 44.3142 237.735 68
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+send_character_message 2 "set_head_target -258.007 44.8933 236.886 1"
+send_character_message 1 "set_head_target -258.376 44.9513 236.395 1"
+say 2 "Fika" "They're patroling the streets, Myst.  it's not safe here anymore."
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+send_character_message 1 "set_head_target -258.376 44.6409 236.587 1"
+send_character_message 2 "set_head_target -258.007 44.8482 236.887 1"
+set_cam -257.643 44.8712 236.073 0.83 142.94 0.73 25.1208
+say 1 "Myst" "Damn.. [wait 0.3] Alright."
+send_character_message 1 "set_torso_target -258.57 44.5547 236.704 1"
+send_character_message 1 "set_head_target -258.376 44.9604 236.666 1"
+send_character_message 2 "set_head_target -258.007 44.7109 236.866 1"
+say 1 "Myst" "Go to the cave, Fika.  Remember our spot?"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+say 1 "Myst" "I'll meet you there, okay?"
+send_character_message 2 "set_head_target -258.778 44.3619 237.403 1"
+send_character_message 2 "set_torso_target -258.5 44.3762 237.01 1"
+set_cam -257.992 44.8832 237.471 0.16 20.22 -1.09 34.0897
+say 2 "Fika" "A-.. [wait 0.3] Alright, Myst."
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_worriedpose_1.anm\""
+send_character_message 2 "set_head_target -258.778 44.8433 237.438 1"
+say 2 "Fika" "I trust you.  Please be safe."
+send_character_message 1 "set_torso_target -258.667 44.4837 236.585 1"
+set_character_pos 2 -263.743 41.3091 224.196 -108
+set_cam -257.833 44.8776 236.806 0.95 132.15 0.56 34.0897
+say 1 "Myst" "You too.  I'll take a boat; you know the secret path?  Take that route."
+send_character_message 1 "set_head_target -258.993 45.0116 236.766 1"
+say 2 "Fika" ".. Alright.."

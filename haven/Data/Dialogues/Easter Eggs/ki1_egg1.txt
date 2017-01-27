@@ -1,0 +1,14 @@
+#name "Egg1"
+#participants 1
+
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target -313.774 59.6757 198.737 1"
+set_character_pos 1 -314.513 59.6082 200.823 76
+set_cam -313.637 59.6598 199.221 21.09 150.3 -1.01 29.3785
+say 1 "Mystique" "What the-..?"
+set_cam -313.638 60.2986 200.264 -19.74 -5.24 2 59.706
+say 1 "Mystique" "An egg?"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_thoughtful.anm\""
+send_character_message 1 "set_head_target -313.57 60.0845 199.482 1"
+set_cam -313.222 60.5683 199.855 -8.16 126.93 -3.18 35.8189
+say 1 "Mystique" "Who on Earth put that there?"

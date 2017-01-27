@@ -1,0 +1,25 @@
+<?xml version="2.0" ?>
+<Music>
+    <Songs>
+        <Song name="ambient-tense" start_segment="main">
+            <Segments>
+                <Segment name="main" path="Data/Levels/Haven/Music/TenseAmbienceA.ogg"/>
+            </Segments>
+        </Song>
+        <Song name="ambient-happy" start_segment="main">
+            <Segments>
+                <Segment name="main" path="Data/Levels/Haven/Music/HappyAmbienceA.ogg"/>
+            </Segments>
+        </Song>
+        <Song name="combat" start_segment="main">
+            <Segments>
+                <Segment name="main" path="Data/Levels/Haven/Music/CombatA.ogg"/>
+            </Segments>
+        </Song>
+        <Song name="sad" start_segment="main">
+            <Segments>
+                <Segment name="main" path="Data/Levels/Haven/Music/HappyAmbienceA.ogg"/>
+            </Segments>
+        </Song>
+    </Songs>
+</Music>

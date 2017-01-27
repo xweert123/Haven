@@ -1,0 +1,78 @@
+#name "ArriveDock"
+#participants 2
+
+set_character_pos 1 -155.799 33.2596 25.4905 87
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_kneelfist.anm\""
+send_character_message 1 "set_head_target -155.748 33.2978 24.434 1"
+set_cam -154.926 33.2523 23.9127 2.98 146.49 5.4 47.459
+say 1 "Myst" "Phew.. [wait 0.2] I made it.. [wait 0.2] I made it."
+send_character_message 1 "set_head_target -155.433 33.0765 24.5661 1"
+say 1 "Myst" "This is far enough.  I don't think the boat could take much more abuse."
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_welcome.anm\""
+send_character_message 2 "set_head_target -157.131 33.8073 23.8178 1"
+set_character_pos 2 -161.32 34.3369 21.3442 -38
+send_character_message 1 "set_head_target -156.107 33.3924 24.6578 1"
+set_cam -154.966 33.2879 25.257 9.93 67.02 -1.67 47.459
+say 2 "Koru" "Hey, Myst!"
+send_character_message 1 "set_head_target -155.754 33.2312 24.6578 1"
+set_cam -155.291 33.3937 24.4116 3.17 152.5 2.76 47.459
+say 1 "Myst" "Looks like i'm not the only one who made it, either."
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+set_cam -155.36 34.0202 24.5976 16.06 60.37 -0.21 46.9387
+send_character_message 2 "set_head_target -156.217 34.1376 24.2141 1"
+send_character_message 1 "set_head_target -157.02 34.9644 23.5529 1"
+set_character_pos 1 -156.123 33.3606 24.1399 158
+set_character_pos 2 -157.278 33.4714 23.4559 -38
+say 2 "Koru" "What?"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+send_character_message 1 "set_head_target -156.698 34.4662 23.7486 1"
+set_cam -156.43 34.2442 23.2511 -2.92 -161.09 2.86 46.9387
+say 1 "Myst" "Nevermind..  How'd you get here?"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_handhips.anm\""
+set_cam -155.313 34.172 24.2096 13.05 67.35 -0.6 46.9387
+say 2 "Koru" "Well, I found Fika on my way out, and she lead me here."
+set_cam -156.403 34.2039 23.0893 -1.26 -168.24 3.36 46.9387
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_worriedpose_2.anm\""
+say 1 "Myst" "So she's okay, too?"
+send_character_message 1 "set_head_target -156.675 34.2641 24.0283 1"
+say 1 "Myst" "Good.."
+send_character_message 2 "set_head_target -156.225 34.2878 24.0846 1"
+send_character_message 1 "set_head_target -157.128 34.8335 23.5911 1"
+set_cam -155.477 34.1396 24.5987 14.29 52.85 1.98 46.9387
+say 2 "Koru" "Don't worry, Myst.  I wouldn't let anything happen to her."
+send_character_message 1 "set_head_target -156.814 34.3222 24.5572 1"
+say 1 "Myst" "Yeah, yeah, [wait 0.2] right.."
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_thoughtful.anm\""
+send_character_message 1 "set_head_target -157.083 34.8393 23.5826 1"
+say 1 "Myst" "Do you know if anyone else made it out?"
+send_character_message 2 "set_head_target -156.216 34.4381 24.0846 1"
+set_cam -155.616 34.4276 23.9781 9.92 72.96 1.38 46.9387
+say 2 "Koru" "Yeah.  There is a whole refugee camp on the way to the caves."
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_worriedpose_1.anm\""
+send_character_message 2 "set_head_target -156.393 35.2281 22.6365 1"
+say 2 "Koru" "Heck, looks like almost everyone made it out."
+send_character_message 1 "set_head_target -157.083 34.3225 23.5155 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_thoughtful.anm\""
+send_character_message 2 "set_head_target -156.296 34.3714 23.9675 1"
+set_cam -157.78 35.6823 22.4689 -33.51 -141.6 3.3 26.8938
+say 1 "Myst" "Thank goodness.."
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target -157.083 34.9988 23.6118 1"
+say 1 "Myst" "So, where's Fika?"
+set_cam -154.842 34.4929 23.6202 7.14 86.56 3.79 26.8938
+send_character_message 1 "set_head_target -157.083 35.0327 23.5926 1"
+send_character_message 2 "set_head_target -156.296 34.3805 23.9372 1"
+say 2 "Koru" "She's waiting for you at the cave. I just came here to make sure you made it safe and sound!"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+send_character_message 1 "set_head_target -157.007 34.5959 23.5926 1"
+set_cam -156.7 34.3396 22.5435 -5.83 -162.85 5.33 26.8932
+say 1 "Myst" "Heh.  Thanks, Koru.  Yeah, i'm fine."
+send_character_message 1 "set_head_target -157.011 34.0596 23.5926 1"
+send_character_message 2 "set_head_target -156.31 34.4217 23.9372 1"
+set_cam -154.236 33.7718 24.0773 15.67 85.52 3.47 26.8932
+say 2 "Koru" "And i'm glad.  See you at the cave, Myst!"
+set_character_pos 2 -209.727 33.5301 42.0955 -38
+send_character_message 1 "set_head_target -157.018 34.5249 23.5926 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+set_cam -156.897 34.1878 22.3827 -3.29 -156.03 -0.97 26.8932
+say 1 "Myst" "Yeah.  See you."

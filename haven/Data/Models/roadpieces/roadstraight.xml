@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Levels/Haven/Models/roadpieces/roadstraight.obj</Model>
+	<ColorMap>Data/Levels/Haven/Models/roadpieces/roadstraight.tga</ColorMap>
+	<NormalMap>Data/Levels/Haven/Models/roadpieces/roadstraight_nm.tga</NormalMap>
+	<ShaderPath>Data/GLSL/cubemapobj</ShaderPath>
+	<ShaderName>cubemapobj</ShaderName>
+    <GroundOffset>0.5</GroundOffset>
+</Object>

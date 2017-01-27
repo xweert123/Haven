@@ -1,0 +1,15 @@
+#name "FindBoat"
+#participants 1
+
+set_character_pos 1 -169.851 33.9162 199.21 35
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handhips.anm\""
+send_character_message 1 "set_head_target -168.916 34.4673 198.359 1"
+set_cam -172.5 34.259 198.799 -0.95 -87.29 3.22 54.2201
+say 1 "Myst" "Perfect, the boat is still here."
+send_character_message 1 "set_head_target -169.281 34.7074 197.975 1"
+set_cam -168.57 34.7995 199.23 -2.03 83.31 1.22 32.947
+say 1 "Myst" "I don't see any others.."
+set_character_pos 1 -169.803 34.0008 199.134 35
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target -169.014 34.4925 198.753 1"
+say 1 "Myst" "Sorry Koru.  I'm sure you'll find a way."

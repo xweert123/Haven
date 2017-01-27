@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Levels/Haven/Models/Weapons/Superfbawarhammer.obj</Model>
+	<ColorMap>Data/Levels/Haven/Models/Weapons/Textures/godhammer_diff.tga</ColorMap>
+	<NormalMap>Data/Levels/Haven/Models/Weapons/Textures/godhammer_norm.tga</NormalMap>
+	<SharpnessMap>Data/Levels/Haven/Models/Weapons/Textures/godhammer_sharp.tga</SharpnessMap>
+	<ShaderName>cubemap</ShaderName>
+</Object>

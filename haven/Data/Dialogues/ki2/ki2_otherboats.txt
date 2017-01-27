@@ -1,0 +1,14 @@
+#name "OtherBoats"
+#participants 1
+
+set_character_pos 1 -103.15 34.7867 22.409 -46
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_kneelfist.anm\""
+send_character_message 1 "set_eye_dir -105.001 35.2523 21.2405 1"
+send_character_message 1 "set_torso_target -105.244 35.6054 22.2042 0"
+send_character_message 1 "set_head_target -99.6938 33.5092 25.0459 1"
+set_cam -109.143 36.008 19.4472 -8.48 -120.63 0 22.9227
+say 1 "Myst" "So that's where all the other boats went."
+send_character_message 1 "set_head_target -103.775 35.5109 24.3543 1"
+set_character_pos 1 -103.154 34.7842 22.4063 -46
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handhips.anm\""
+say 1 "Myst" "That must mean these refugees didn't go through the Dungeon route."

@@ -1,0 +1,67 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/forest_creek/forest_creek_hm.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/Terrain/forest_creek/forest_creek_c.tga</ColorMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_normal.png" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/dirt.tga" normalpath="Data/Textures/Terrain/DetailTextures/dirt_normal.png" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/roots.tga" normalpath="Data/Textures/Terrain/DetailTextures/roots_normal.tga" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/rubble.tga" normalpath="Data/Textures/Terrain/DetailTextures/rubble_normal.tga" materialpath="Data/Materials/default.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
+<OutOfDate NavMesh="true" />
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="HDR Black point" type="string" val="0" />
+    <parameter name="HDR Bloom multiplier" type="string" val="1.068" />
+    <parameter name="HDR White point" type="string" val="0.9580000000000001" />
+    <parameter name="Level Boundaries" type="string" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Sky Rotation" type="string" val="0" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Textures/skies/cirrus2_volcano_slope.tga</DomeTexture>
+    <SunAngularRad>0.214086</SunAngularRad>
+    <SunColorAngle>38.0014</SunColorAngle>
+    <RayToSun r0="0.922011" r1="0.340379" r2="0.184494" />
+</Sky>
+<ActorObjects>
+    <CameraObject t0="336.115" t1="41.3199" t2="-369.766" s0="1" s1="1" s2="1" q0="0.0772051" q1="-0.534518" q2="0.0491169" r0="0.423756" r1="-8.9407e-008" r2="0.905777" r3="0" r4="-0.16507" r5="0.983254" r6="0.0772259" r7="0" r8="-0.890608" r9="-0.182242" r10="0.416659" r11="0" r12="0" r13="0" r14="0" r15="1" id="37">
+        <parameters />
+    </CameraObject>
+    <EnvObject t0="312.655" t1="36.206" t2="-374.112" s0="3.08576" s1="3.08576" s2="6.94295" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_platform.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="321.596" t1="36.206" t2="-374.116" s0="3.08576" s1="3.08576" s2="6.94295" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="2" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_platform.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="318.903" t1="34.1053" t2="-367.562" s0="1.71129" s1="1.97863" s2="1.64574" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="3" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_square_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="315.195" t1="34.1053" t2="-367.609" s0="1.71129" s1="1.97863" s2="1.64574" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="4" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_square_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="315.195" t1="34.1053" t2="-380.609" s0="1.71129" s1="1.97863" s2="1.64574" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_square_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="318.95" t1="34.1053" t2="-380.646" s0="1.71129" s1="1.97863" s2="1.64574" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="6" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_square_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="318.834" t1="33.503" t2="-374.094" s0="3.21119" s1="2.39717" s2="2.22625" q0="0" q1="-0.707107" q2="0" r0="-1.19209e-007" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_wall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="315.344" t1="33.2755" t2="-374.338" s0="3.21119" s1="2.39717" s2="2.22625" q0="0" q1="-0.707107" q2="0" r0="-1.19209e-007" r1="0" r2="1" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-1" r9="-0" r10="-1.19209e-007" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_wall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="322.606" t1="37.9002" t2="-378.957" s0="1.5" s1="2.10471" s2="2.04674" q0="0" q1="0" q2="0.707107" r0="-1.19209e-007" r1="1" r2="0" r3="0" r4="-1" r5="-1.19209e-007" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="1" color_g="1" color_b="1" type_file="Data/Objects/Buildings/basics/soft_cube.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>

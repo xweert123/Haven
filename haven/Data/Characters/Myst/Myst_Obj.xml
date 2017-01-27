@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Models/Characters/cats/male_cat/male_cat.obj</Model>
+	<ColorMap>Data/Levels/Haven/Characters/Myst/myst_texturesheet.tga</ColorMap>
+	<NormalMap>Data/Textures/Characters/cats/male_cat/male_cat_n.tga</NormalMap>
+
+	<PaletteMap 
+		label_red="Fur" 
+		label_green="Shirt" 
+		label_blue="Pants"
+		label_alpha="Spots">
+        	Data/Textures/Characters/cats/male_cat/male_cat_m.tga
+    	</PaletteMap>
+	
+	
+	<ShaderName>cubemapobjchar</ShaderName>
+</Object>

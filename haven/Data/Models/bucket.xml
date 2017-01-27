@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Levels/Haven/Models/bucket.obj</Model>
+	<ColorMap>Data/Levels/Haven/Models/bucket.tga</ColorMap>
+	<NormalMap>Data/Levels/Haven/Models/bucket_nm.tga</NormalMap>
+	<ShaderPath>Data/GLSL/cubemap</ShaderPath>
+	<ShaderName>cubemap</ShaderName>
+    <GroundOffset>0.5</GroundOffset>
+</Object>

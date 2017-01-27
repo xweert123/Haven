@@ -1,0 +1,153 @@
+#name "FindKoru"
+#participants 2
+
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 2 "set_animation \"Data\Animations\r_sit_cross_legged.anm\""
+send_character_message 2 "set_head_target -267.519 37.1655 225.689 1"
+set_character_pos 1 -267.227 36.9063 227.465 97
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_shade.anm\""
+send_character_message 1 "set_head_target -267.189 37.5695 226.736 1"
+set_cam -266.483 37.4918 226.163 0 149.95 0 47.2687
+say 1 "Myst" "Koru?"
+set_cam -266.478 37.5626 226.166 0 149.67 0 69.4868
+set_character_pos 1 -267.227 36.9063 227.465 97
+send_character_message 2 "set_head_target -267.519 37.1655 225.689 1"
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 1 "set_head_target -267.192 37.4355 226.648 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+say 1 "Myst" "Why on earth are you here?"
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 1 "set_head_target -267.475 37.3689 226.113 1"
+set_character_pos 1 -267.343 36.9064 226.684 97
+send_character_message 2 "set_head_target -267.509 37.3829 225.651 1"
+set_cam -266.53 37.2139 226.241 0 41.73 0 49.2334
+say 2 "Koru" "I should be asking you the same question!"
+set_cam -266.53 37.2139 226.241 0 41.73 0 47.438
+set_character_pos 1 -267.343 36.9064 226.684 97
+send_character_message 1 "set_head_target -267.475 37.3689 226.113 1"
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 2 "set_head_target -267.509 37.466 225.618 1"
+say 2 "Koru" "I thought you were with the group, Myst!"
+send_character_message 2 "set_head_target -267.509 37.466 225.618 1"
+set_character_pos 1 -267.343 36.9064 226.684 97
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target -267.458 37.5494 226.112 1"
+set_cam -266.697 37.6073 225.848 0 141.73 0 69.4868
+say 1 "Myst" "Huh..?"
+send_character_message 1 "set_head_target -267.458 37.5494 226.112 1"
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 2 "set_head_target -267.509 37.6007 225.629 1"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_welcome.anm\""
+set_cam -266.706 37.7235 225.859 0 44.35 0 69.4868
+set_character_pos 1 -267.343 36.9063 226.684 96
+say 2 "Koru" "All the other villagers got in a group once the attack started."
+set_character_pos 1 -267.343 36.9063 226.684 96
+set_cam -266.706 37.7235 225.859 0 46.57 0 69.4868
+send_character_message 1 "set_head_target -267.458 37.5494 226.112 1"
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 2 "set_head_target -267.488 37.7416 225.629 1"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_2handneck.anm\""
+say 2 "Koru" "They ran down into the dungeon, taking anyone they could find."
+set_character_pos 1 -267.343 36.9063 226.684 96
+set_cam -266.706 37.7235 225.859 0 45.94 0 69.4868
+send_character_message 1 "set_head_target -267.458 37.5494 226.112 1"
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 2 "set_head_target -267.482 37.5928 225.629 1"
+say 2 "Koru" "But I took too long; [wait 0.2] they shut the door before I caught up."
+send_character_message 2 "set_head_target -267.482 37.5928 225.629 1"
+set_character_pos 1 -267.343 36.9063 226.684 96
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 1 "set_head_target -267.458 37.7499 226.124 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_worriedpose_2.anm\""
+set_cam -266.643 37.5127 225.783 0 136.94 0 69.4868
+say 1 "Myst" "Sheesh Koru; i'm sorry."
+send_character_message 1 "set_head_target -267.458 37.7499 226.124 1"
+set_character_pos 1 -267.343 36.9063 226.684 96
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 2 "set_head_target -267.483 37.7995 225.634 1"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+set_cam -266.736 37.696 225.874 0 45.97 0 69.4868
+say 2 "Koru" "Is your sister alright, though? [wait 0.5] Fika?"
+send_character_message 2 "set_head_target -267.483 37.7995 225.634 1"
+set_character_pos 1 -267.343 36.9063 226.684 96
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 1 "set_head_target -267.214 37.5976 226.034 1"
+set_cam -266.577 37.6262 225.803 0 138.24 0 69.4868
+say 1 "Myst" "I hope so.  I told her to go to the cave, so we can hide there while we prepare."
+send_character_message 1 "set_head_target -267.214 37.5976 226.034 1"
+set_character_pos 1 -267.343 36.9063 226.684 96
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_worriedpose_1.anm\""
+send_character_message 2 "set_head_target -267.452 37.61 225.634 1"
+set_cam -266.569 37.7237 225.792 -0.14 53 0.63 69.4868
+say 2 "Koru" "Prepare?  For what?"
+send_character_message 2 "set_head_target -267.452 37.61 225.634 1"
+set_character_pos 1 -267.343 36.9063 226.684 96
+set_character_pos 2 -267.689 36.7506 224.985 -70
+send_character_message 1 "set_head_target -267.423 37.7123 226.043 1"
+set_cam -266.546 37.5255 225.762 -0.63 143.04 -0.14 69.4868
+say 1 "Myst" "You'll know once we talk about it."
+set_character_pos 1 -267.343 36.9063 226.684 96
+send_character_message 1 "set_head_target -267.423 37.7123 226.043 1"
+send_character_message 2 "set_head_target -267.452 37.756 225.631 1"
+set_character_pos 2 -267.23 36.7506 225.488 -70
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_shockedback.anm\""
+set_cam -266.554 37.6967 225.773 -0.02 41.5 0.63 69.4868
+say 2 "Koru" "What?  You expect me to get right back out there?"
+set_character_pos 2 -267.23 36.7506 225.488 -70
+send_character_message 2 "set_head_target -267.452 37.756 225.631 1"
+set_character_pos 1 -267.379 36.8955 226.696 94
+send_character_message 1 "set_head_target -267.423 37.6427 226.037 1"
+set_cam -266.549 37.6243 225.777 -0.64 132.92 -0.03 69.4868
+say 1 "Myst" "Not like you got any other choice, do you?  You made it this far."
+set_cam -266.549 37.6243 225.777 -0.63 139.36 -0.1 69.4868
+set_character_pos 1 -267.379 36.8955 226.696 94
+set_character_pos 2 -267.23 36.7506 225.488 -70
+send_character_message 2 "set_head_target -267.452 37.756 225.631 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+send_character_message 1 "set_head_target -267.423 37.7798 226.049 1"
+say 1 "Myst" "Besides, this place won't be safe for long once the wolves come."
+send_character_message 1 "set_head_target -267.423 37.7798 226.049 1"
+set_character_pos 1 -267.379 36.8955 226.696 94
+send_character_message 2 "set_head_target -267.193 37.0552 226.077 1"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_kneelfist.anm\""
+set_character_pos 2 -267.26 36.7506 225.07 -70
+set_cam -266.676 37.23 225.873 0.03 37.44 0.64 69.4868
+say 2 "Koru" "Yeah, yeah.. [wait 0.2] You're right."
+set_cam -266.676 37.23 225.873 0.03 37.44 0.64 69.4868
+send_character_message 1 "set_head_target -267.423 37.7798 226.049 1"
+set_character_pos 1 -267.379 36.8955 226.696 94
+send_character_message 2 "set_head_target -267.186 37.3913 226.043 1"
+send_character_message 2 "set_animation \"Data\Animations\r_sit_cross_legged.anm\""
+say 2 "Koru" "I was going to go there eventually, anyway."
+set_cam -266.676 37.23 225.873 0.03 37.44 0.64 69.4868
+send_character_message 1 "set_head_target -267.423 37.7798 226.049 1"
+set_character_pos 1 -267.379 36.8955 226.696 94
+send_character_message 2 "set_head_target -267.03 36.9819 226.043 1"
+say 2 "Koru" "At least now I know i'll have company."
+send_character_message 2 "set_head_target -267.03 36.9819 226.043 1"
+set_character_pos 1 -267.385 36.7397 226.628 94
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handhips.anm\""
+send_character_message 1 "set_head_target -267.423 37.4049 225.658 1"
+set_cam -266.615 37.4102 225.89 -0.64 136.33 -0.07 69.4868
+say 1 "Myst" "Sounds like a plan, then."
+send_character_message 1 "set_head_target -267.423 37.4049 225.658 1"
+set_character_pos 1 -267.385 36.7397 226.628 94
+send_character_message 2 "set_head_target -267.4 37.5257 226.043 1"
+set_cam -266.583 37.0289 225.903 -0.01 40.84 0.64 69.4868
+say 2 "Koru" "You go on ahead.  I'll stay here for a little bit longer."
+set_cam -266.583 37.0289 225.903 0.01 38.89 0.64 69.4868
+send_character_message 1 "set_head_target -267.423 37.4049 225.658 1"
+set_character_pos 1 -267.385 36.7397 226.628 94
+send_character_message 2 "set_head_target -267.345 37.3267 226.043 1"
+say 2 "Koru" "You know, just incase someone opens the door."
+send_character_message 2 "set_head_target -267.345 37.3267 226.043 1"
+set_character_pos 1 -267.385 36.7397 226.628 94
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_thoughtful.anm\""
+send_character_message 1 "set_head_target -267.423 37.4326 225.918 1"
+set_cam -266.626 37.4857 225.722 -0.63 140.98 -0.12 69.4555
+say 1 "Myst" "Alright, just don't stay too long.  Be safe, Koru."
+send_character_message 2 "set_head_target -267.213 37.3487 226.043 1"
+set_cam -266.543 37.1152 225.774 -0.08 47.08 0.64 69.4555
+say 2 "Koru" "You too, Myst."

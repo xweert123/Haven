@@ -1,0 +1,137 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name></Name>
+<Description></Description>
+<Shader>post</Shader>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/forest_creek/forest_creek_hm.png</Heightmap>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/Terrain/forest_creek/forest_creek_c.tga</ColorMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_normal.png" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/dirt.tga" normalpath="Data/Textures/Terrain/DetailTextures/dirt_normal.png" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/roots.tga" normalpath="Data/Textures/Terrain/DetailTextures/roots_normal.tga" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/rubble.tga" normalpath="Data/Textures/Terrain/DetailTextures/rubble_normal.tga" materialpath="Data/Materials/default.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
+<OutOfDate NavMesh="true" />
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="HDR Black point" type="string" val="0" />
+    <parameter name="HDR Bloom multiplier" type="string" val="1.068" />
+    <parameter name="HDR White point" type="string" val="0.9580000000000001" />
+    <parameter name="Level Boundaries" type="string" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Sky Rotation" type="string" val="0" />
+</LevelScriptParameters>
+<Sky>
+    <DomeTexture>Data/Textures/skies/cirrus2_volcano_slope.tga</DomeTexture>
+    <SunAngularRad>0.214086</SunAngularRad>
+    <SunColorAngle>38.0014</SunColorAngle>
+    <RayToSun r0="0.922011" r1="0.340379" r2="0.184494" />
+</Sky>
+<ActorObjects>
+    <CameraObject t0="24.8554" t1="50.6184" t2="-156.663" s0="1" s1="1" s2="1" q0="0.136187" q1="-0.440445" q2="0.0677928" r0="0.602824" r1="5.21541e-008" r2="0.797874" r3="0" r4="-0.239931" r5="0.953715" r6="0.181277" r7="0" r8="-0.760944" r9="-0.300713" r10="0.574922" r11="0" r12="0" r13="0" r14="0" r15="1" id="37">
+        <parameters />
+    </CameraObject>
+    <ActorObject t0="31.6369" t1="48.5041" t2="-192.978" s0="1" s1="1" s2="1" q0="0.00959658" q1="0.142412" q2="0.066546" r0="0.950581" r1="0.134165" r2="-0.279993" r3="0" r4="-0.128698" r5="0.990959" r6="0.0379076" r7="0" r8="0.282547" r9="2.45869e-007" r10="0.959253" r11="0" r12="0" r13="0" r14="0" r15="1" id="1" type_file="Data/Objects/characters/cats/male_cat_actor.xml" is_player="1" is_dead="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="cat" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.0666667" green="0.0666667" blue="0.0666667" />
+            <Color label="Shirt" channel="1" red="0.0823529" green="0.596078" blue="0.72549" />
+            <Color label="Pants" channel="2" red="1" green="1" blue="1" />
+            <Color label="Spots" channel="3" red="0.0235294" green="0.0235294" blue="0.0235294" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="5.26445" t1="48.5972" t2="-192.325" s0="0.626391" s1="0.626391" s2="0.626391" q0="0" q1="0.65921" q2="5.96047e-008" r0="0.130884" r1="8.96406e-008" r2="-0.991398" r3="0" r4="-8.96406e-008" r5="1" r6="7.8584e-008" r7="0" r8="0.991398" r9="7.8584e-008" r10="0.130884" r11="0" r12="0" r13="0" r14="0" r15="1" id="5" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavebridge.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="6.7435" t1="48.4384" t2="-196.187" s0="0.626391" s1="0.626391" s2="0.626391" q0="0" q1="0.620331" q2="-5.96046e-008" r0="0.230379" r1="-9.35006e-008" r2="-0.973101" r3="0" r4="9.35006e-008" r5="1" r6="-7.39492e-008" r7="0" r8="0.973101" r9="-7.39492e-008" r10="0.230379" r11="0" r12="0" r13="0" r14="0" r15="1" id="6" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavebridgebend.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="9.85149" t1="48.6926" t2="-199.647" s0="0.279076" s1="0.503231" s2="0.250536" q0="-0.010533" q1="0.333187" q2="0.0297898" r0="0.776198" r1="0.0491248" r2="-0.628573" r3="0" r4="-0.0631626" r5="0.998003" r6="-1.86265e-009" r7="0" r8="0.627317" r9="0.0397023" r10="0.777751" r11="0" r12="0" r13="0" r14="0" r15="1" id="8" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavestalagmite.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="11.5351" t1="48.6419" t2="-200.456" s0="0.175984" s1="0.2567" s2="0.165064" q0="-5.96047e-008" q1="-0.649625" q2="-5.96047e-008" r0="0.155975" r1="-1.31881e-008" r2="0.987761" r3="0" r4="1.68071e-007" r5="1" r6="-1.31881e-008" r7="0" r8="-0.987761" r9="1.68071e-007" r10="0.155975" r11="0" r12="0" r13="0" r14="0" r15="1" id="10" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavestalagmitesingle.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="13.7695" t1="48.8438" t2="-200.497" s0="0.246646" s1="0.246646" s2="0.246646" q0="2.98023e-008" q1="0.929512" q2="5.96047e-008" r0="-0.727985" r1="9.93666e-008" r2="-0.685593" r3="0" r4="1.14397e-008" r5="1" r6="1.32788e-007" r7="0" r8="0.685593" r9="8.88249e-008" r10="-0.727985" r11="0" r12="0" r13="0" r14="0" r15="1" id="7" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavepillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="19.349" t1="47.6522" t2="-180.945" s0="0.203548" s1="0.207545" s2="0.305574" q0="-5.96046e-008" q1="0.122652" q2="0" r0="0.969913" r1="-1.46212e-008" r2="-0.243451" r3="0" r4="-1.46212e-008" r5="1" r6="-1.18309e-007" r7="0" r8="0.243451" r9="1.18309e-007" r10="0.969913" r11="0" r12="0" r13="0" r14="0" r15="1" id="9" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavesmalltunnel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="13.8835" t1="48.1155" t2="-197.314" s0="0.425049" s1="0.425049" s2="0.425049" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="11" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\caverock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="10.754" t1="47.9468" t2="-195.623" s0="0.425049" s1="0.425049" s2="0.425049" q0="0.790603" q1="0.0152197" q2="-0.612026" r0="0.250385" r1="0.0096064" r2="-0.968099" r3="0" r4="0.0385246" r5="-0.999258" r6="4.82462e-005" r7="0" r8="-0.96738" r9="-0.0373077" r10="-0.250569" r11="0" r12="0" r13="0" r14="0" r15="1" id="12" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\caverock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="20.3598" t1="50.0731" t2="-199.683" s0="0.155346" s1="0.155346" s2="0.155346" q0="-2.23517e-008" q1="0.995784" q2="0" r0="-0.983171" r1="-4.45149e-008" r2="-0.182685" r3="0" r4="-4.45149e-008" r5="1" r6="-4.10061e-009" r7="0" r8="0.182685" r9="4.10061e-009" r10="-0.983171" r11="0" r12="0" r13="0" r14="0" r15="1" id="13" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavesmalltunneldecline.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="23.4775" t1="49.4728" t2="-199.767" s0="0.154459" s1="0.154459" s2="0.154459" q0="0" q1="0" q2="0" r0="1" r1="0" r2="0" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0" r9="0" r10="1" r11="0" r12="0" r13="0" r14="0" r15="1" id="14" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavesmalltunnelturn.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="7.22051" t1="51.4791" t2="-201.925" s0="0.479328" s1="0.486244" s2="0.506383" q0="0" q1="-0.939009" q2="0" r0="-0.763476" r1="0" r2="0.645836" r3="0" r4="-0" r5="1" r6="0" r7="0" r8="-0.645836" r9="-0" r10="-0.763476" r11="0" r12="0" r13="0" r14="0" r15="1" id="15" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavewall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="11.7698" t1="50.8419" t2="-205.052" s0="0.479328" s1="0.486244" s2="0.506383" q0="-0.000843525" q1="0.208368" q2="-0.0429907" r0="0.909469" r1="-0.0843644" r2="-0.407122" r3="0" r4="0.0836613" r5="0.996302" r6="-0.0195642" r7="0" r8="0.407267" r9="-0.0162673" r10="0.913164" r11="0" r12="0" r13="0" r14="0" r15="1" id="16" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavewall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="19.8382" t1="47.6383" t2="-176.185" s0="0.189004" s1="0.202233" s2="0.191243" q0="0" q1="-0.995872" q2="7.45058e-009" r0="-0.983522" r1="1.35254e-009" r2="0.180786" r3="0" r4="-1.35254e-009" r5="1" r6="-1.48397e-008" r7="0" r8="-0.180786" r9="-1.48397e-008" r10="-0.983522" r11="0" r12="0" r13="0" r14="0" r15="1" id="17" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavesmalltunnelturn.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="15.9966" t1="47.2392" t2="-174.463" s0="0.189978" s1="0.19402" s2="0.187363" q0="0" q1="0.81651" q2="0" r0="-0.333376" r1="0" r2="-0.942794" r3="0" r4="0" r5="1" r6="0" r7="0" r8="0.942794" r9="0" r10="-0.333376" r11="0" r12="0" r13="0" r14="0" r15="1" id="18" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavesmalltunneldecline.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="11.8077" t1="46.7651" t2="-172.571" s0="0.203548" s1="0.207545" s2="0.305574" q0="0.00200528" q1="-0.560512" q2="-0.00266269" r0="0.371639" r1="-0.00665813" r2="0.928353" r3="0" r4="0.0021622" r5="0.999978" r6="0.00630624" r7="0" r8="-0.928375" r9="-0.000336357" r10="0.371645" r11="0" r12="0" r13="0" r14="0" r15="1" id="19" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavesmalltunnel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="7.41471" t1="45.0645" t2="-170.547" s0="0.626391" s1="0.626391" s2="0.626391" q0="-5.96046e-008" q1="0.869796" q2="2.98023e-008" r0="-0.513092" r1="-7.42782e-008" r2="-0.858333" r3="0" r4="-1.33097e-007" r5="1" r6="-6.9752e-009" r7="0" r8="0.858333" r9="1.10663e-007" r10="-0.513092" r11="0" r12="0" r13="0" r14="0" r15="1" id="20" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavebridge.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="4.159" t1="45.303" t2="-167.291" s0="0.626391" s1="0.626391" s2="0.626391" q0="-0.0140759" q1="0.286804" q2="-0.0469548" r0="0.831078" r1="-0.0979206" r2="-0.547468" r3="0" r4="0.0817725" r5="0.995194" r6="-0.0538674" r7="0" r8="0.550112" r9="1.00583e-007" r10="0.835091" r11="0" r12="0" r13="0" r14="0" r15="1" id="21" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavebridgebend.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="4.45105" t1="47.838" t2="-171.218" s0="1.11312" s1="1.12918" s2="1.17594" q0="2.98023e-008" q1="-0.966861" q2="0" r0="-0.869639" r1="-5.76294e-008" r2="0.493689" r3="0" r4="-5.76294e-008" r5="1" r6="1.52174e-008" r7="0" r8="-0.493689" r9="-1.52174e-008" r10="-0.869639" r11="0" r12="0" r13="0" r14="0" r15="1" id="22" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavewall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-0.970487" t1="47.9943" t2="-163.898" s0="1.10859" s1="1.1628" s2="1.17594" q0="5.96046e-008" q1="-0.794261" q2="0" r0="-0.261702" r1="-9.46833e-008" r2="0.965149" r3="0" r4="-9.46833e-008" r5="1" r6="7.24287e-008" r7="0" r8="-0.965149" r9="-7.24287e-008" r10="-0.261702" r11="0" r12="0" r13="0" r14="0" r15="1" id="23" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavewall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="1.2425" t1="48.0926" t2="-154.883" s0="1.11084" s1="1.18396" s2="1.17595" q0="5.96047e-008" q1="-0.453188" q2="0" r0="0.589241" r1="-5.40243e-008" r2="0.807958" r3="0" r4="-5.40243e-008" r5="1" r6="1.06265e-007" r7="0" r8="-0.807958" r9="-1.06265e-007" r10="0.589241" r11="0" r12="0" r13="0" r14="0" r15="1" id="24" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavewall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="2.13615" t1="47.5868" t2="-167.077" s0="1.53723" s1="1.4744" s2="1.22204" q0="0.36575" q1="-0.57128" q2="0.641456" r0="-0.475655" r1="0.0418122" r2="0.878638" r3="0" r4="-0.877596" r5="-0.090479" r6="-0.470785" r7="0" r8="0.0598137" r9="-0.99502" r10="0.0797311" r11="0" r12="0" r13="0" r14="0" r15="1" id="25" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavebridge.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="0.458452" t1="48.0804" t2="-159.659" s0="1.53723" s1="1.4744" s2="1.22204" q0="0.557953" q1="-0.385776" q2="0.453376" r0="0.291253" r1="0.093795" r2="0.952037" r3="0" r4="-0.954774" r5="-0.0337224" r6="0.295413" r7="0" r8="0.0598134" r9="-0.99502" r10="0.0797315" r11="0" r12="0" r13="0" r14="0" r15="1" id="26" color_r="1" color_g="1" color_b="1" type_file="Data\Models\Jack_Caveset\cavebridge.xml">
+        <parameters />
+    </EnvObject>
+</ActorObjects>

@@ -1,0 +1,110 @@
+#name "FirepitLadies"
+#participants 3
+
+send_character_message 3 "set_animation \"Data\Animations\r_sit_cross_legged.anm\""
+set_character_pos 2 -149.348 37.6107 -34.5883 -170
+send_character_message 2 "set_animation \"Data\Animations\r_sit_cross_legged.anm\""
+set_character_pos 1 -150.918 37.5306 -33.2157 106
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+send_character_message 1 "set_eye_dir -151.372 38.312 -33.2462 1"
+send_character_message 1 "set_head_target -151.022 37.9755 -34.1057 1"
+set_cam -151.484 37.6966 -36.4633 7.38 -167.94 0 38.9459
+say 1 "Myst" "I uh-..  Hi!"
+send_character_message 3 "set_torso_target -150.735 37.767 -34.4735 0.831657"
+send_character_message 3 "set_head_target -150.82 37.9272 -34.8462 1"
+set_cam -153.663 37.9972 -34.5131 -1.63 -110.13 3.85 53.4619
+send_character_message 1 "set_torso_target -150.937 37.5832 -33.5113 1"
+send_character_message 1 "set_head_target -149.978 37.7115 -34.254 1"
+send_character_message 1 "set_animation \"Data\Animations\r_sit_cross_legged.anm\""
+set_character_pos 1 -150.97 37.5306 -33.2396 103
+send_character_message 2 "set_head_target -150.6 38.2091 -33.2497 1"
+set_character_pos 2 -149.348 37.6107 -34.5883 -172
+say 2 "Lady" "Oh.. Hi!"
+send_character_message 1 "set_head_target -151.864 37.8771 -33.5679 1"
+send_character_message 1 "set_torso_target -151.194 37.5832 -33.9017 1"
+send_character_message 3 "set_torso_target -151.892 37.6709 -33.6169 0.831657"
+send_character_message 2 "set_head_target -152.363 37.7017 -33.7805 1"
+send_character_message 3 "set_head_target -151.709 37.9272 -33.8063 1"
+say 3 "Other Lady" ".. Hello~."
+send_character_message 1 "set_torso_target -151.181 37.4285 -33.7857 1"
+send_character_message 3 "set_torso_target -151.833 37.6709 -33.801 0.831657"
+send_character_message 1 "set_head_target -151.499 37.8169 -33.526 1"
+send_character_message 3 "set_head_target -152.05 37.8495 -34.2003 1"
+send_character_message 2 "set_head_target -152.35 37.6523 -33.7805 1"
+set_cam -152.085 37.8259 -34.9447 -1.92 -146.14 -1.06 26.888
+say 1 "Myst" "You two came out of Vyl, right?"
+send_character_message 1 "set_head_target -150.717 37.7813 -33.9033 1"
+send_character_message 1 "set_torso_target -150.817 37.4285 -33.8772 1"
+say 1 "Myst" "You two okay?"
+send_character_message 2 "set_torso_target -150.281 37.5421 -33.8467 1"
+send_character_message 2 "set_head_target -150.125 37.8791 -34.0409 1"
+send_character_message 3 "set_head_target -152.475 37.7792 -34.2003 1"
+set_cam -152.085 37.8259 -34.9447 -0.5 -98.27 -2.13 26.888
+say 2 "Lady" "Yeah..  We're fine..  Right, Miki?"
+send_character_message 3 "set_torso_target -151.669 37.6709 -33.8083 0.831657"
+send_character_message 3 "set_head_target -152.604 37.6838 -34.5317 1"
+send_character_message 1 "set_head_target -150.734 37.7813 -33.9057 1"
+set_cam -151.671 37.8376 -35.289 -1.29 131.02 1.77 26.888
+say 3 "Miki" "I-..  I'm a little shaken.  But we're here, right?"
+send_character_message 3 "set_head_target -152.046 37.8748 -33.9691 1"
+send_character_message 3 "set_torso_target -151.679 37.6709 -34.1144 0.831657"
+say 3 "Miki" "Actually, sir..  What's your name?"
+send_character_message 1 "set_head_target -151.63 37.8177 -33.7098 1"
+set_cam -151.671 37.8376 -35.289 -2.15 -164.09 -0.42 26.888
+say 1 "Myst" "My name's Mystique.  Why?"
+send_character_message 3 "set_torso_target -151.852 37.7724 -33.73 0.831657"
+send_character_message 3 "set_head_target -152.081 37.7491 -33.8228 1"
+set_cam -151.553 37.9834 -35.3598 -3.75 131.05 3.37 26.888
+say 3 "Miki" "Okay, Mystique..  Do you by-chance know where we are?"
+send_character_message 1 "set_torso_target -151.15 37.4285 -33.9814 1"
+send_character_message 3 "set_torso_target -151.86 37.7724 -33.7364 0.831657"
+set_cam -151.553 37.9834 -35.3598 -4.62 -163.47 -3.95 26.888
+say 1 "Myst" "Yes.  We're in Rog Country.  The outback.  There's plenty of wolves, here."
+set_cam -151.561 37.9846 -35.3891 -2.75 -111.63 -0.26 26.888
+say 2 "Lady" ".. Wolves?"
+send_character_message 1 "set_torso_target -150.841 37.4285 -33.9959 1"
+send_character_message 1 "set_head_target -150.685 37.7493 -33.9616 1"
+set_cam -151.449 37.7544 -35.5696 -0.55 -168.16 2.1 26.888
+say 1 "Myst" "Haha, [wait 0.1] don't worry though.  It'll be just fine."
+send_character_message 1 "set_torso_target -150.729 37.4285 -33.9503 1"
+send_character_message 1 "set_head_target -150.245 37.6889 -33.9934 1"
+say 1 "Myst" "The only reason you'd have a problem here is if you disturb the forest."
+set_cam -151.494 37.8547 -36.246 -8.78 -168.46 2.12 26.888
+send_character_message 1 "set_head_target -151.189 37.6304 -34.4816 1"
+send_character_message 2 "set_head_target -150.088 37.8791 -33.9841 1"
+send_character_message 2 "set_torso_target -150.22 37.5421 -33.7652 1"
+say 1 "Myst" "..."
+send_character_message 3 "set_head_target -152.021 37.4584 -33.4419 1"
+send_character_message 3 "set_torso_target -151.866 37.446 -33.2797 0.831657"
+set_cam -151.251 37.8305 -35.3579 -2.45 126.07 2.96 26.888
+say 3 "Miki" "I don't think now's the time for jokes, friend."
+send_character_message 1 "set_head_target -151.051 37.4488 -34.0314 1"
+set_cam -151.261 37.9034 -35.3515 -3.75 -171.49 -0.86 26.888
+say 1 "Myst" ".. Yeah; right, [wait 0.2] Sorry."
+send_character_message 2 "set_head_target -150.159 37.6622 -34.3282 1"
+send_character_message 2 "set_torso_target -150.067 37.1706 -34.4146 1"
+set_cam -151.261 37.9034 -35.3515 -3.27 -111.63 -3.68 26.888
+say 2 "Lady" "They're going to destroy our homes, Myst.."
+send_character_message 2 "set_head_target -150.105 37.8552 -33.721 1"
+say 2 "Lady" "I knew it was bad, but I didn't think it'd actually happen.."
+send_character_message 1 "set_head_target -150.241 37.7544 -34.123 1"
+send_character_message 1 "set_torso_target -151.063 37.6486 -33.8458 1"
+set_cam -151.261 37.9034 -35.3515 -4.78 -173.72 1.16 26.888
+say 1 "Myst" "I didn't either.  I had to be woken up by my Sister."
+send_character_message 1 "set_head_target -150.277 37.8784 -34.123 1"
+say 1 "Myst" "They could have gotten me in my sleep and I would never have known."
+send_character_message 3 "set_head_target -152.019 37.4775 -33.6519 1"
+send_character_message 3 "set_torso_target -151.427 37.446 -33.9123 0.831657"
+set_cam -151.261 37.9034 -35.3515 -1.56 130.52 1.53 26.888
+say 3 "Miki" "I'm still trying to figure out why they sent rabbits to gather our debts.."
+send_character_message 3 "set_head_target -152.005 37.6857 -33.136 1"
+say 3 "Miki" "Something doesn't seem right to me."
+send_character_message 1 "set_torso_target -150.905 37.6486 -33.9051 1"
+send_character_message 1 "set_head_target -150.447 38.0908 -34.5915 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+set_cam -151.219 38.452 -35.8661 -2.15 -175.14 -0.37 26.888
+send_character_message 3 "set_head_target -152.005 37.6857 -33.136 1"
+say 1 "Myst" "My family is very powerful.  We'll find a way to fix this.  Don't worry."
+send_character_message 1 "set_head_target -152.648 38.0908 -34.2426 1"
+send_character_message 1 "set_torso_target -151.423 37.6486 -33.8506 1"
+say 1 "Myst" "We want Vyl back just as bad as you do."

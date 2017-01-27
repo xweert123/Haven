@@ -1,0 +1,69 @@
+#name "Ambush"
+#participants 4
+
+set_character_pos 1 -254.833 38.503 220.184 -84
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_point.anm\""
+send_character_message 1 "set_eye_dir -254.414 39.2453 221.302 0.510056"
+send_character_message 1 "set_torso_target -251.985 38.5407 222.1 1"
+send_character_message 1 "set_head_target -254.634 39.1389 220.891 1"
+set_cam -253.896 39.2505 223.276 0 18.89 0 17.2572
+say 1 "Myst" "Hey!  You!"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_shade.anm\""
+send_character_message 3 "set_torso_target -254.473 39.0965 224.863 1"
+send_character_message 2 "set_torso_target -254.834 39.0887 224.437 1"
+send_character_message 3 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+send_character_message 3 "set_head_target -254.367 39.2196 223.64 1"
+send_character_message 2 "set_head_target -254.835 39.2195 223.631 1"
+set_character_pos 3 -254.16 38.7211 225.04 -178
+set_character_pos 2 -255.309 38.6516 225.023 0
+set_cam -254.909 38.9813 220.804 0 -179.93 0 31.0441
+say 4 "Raiders" "?"
+send_character_message 1 "set_eye_dir -254.414 39.2453 221.302 0.59113"
+send_character_message 1 "set_head_target -254.758 39.231 220.891 1"
+send_character_message 1 "set_torso_target -254.814 38.9015 221.911 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+set_cam -254.769 39.2345 222.004 -0.08 1.83 0 26.0255
+say 1 "Myst" "What the hell are you two doing?"
+send_character_message 3 "set_head_target -254.525 39.3156 224.654 1"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_worriedpose_2.anm\""
+send_character_message 3 "set_torso_target -254.202 39.0965 224.939 1"
+set_character_pos 3 -254.338 38.7211 225.048 92
+send_character_message 2 "set_torso_target -255.249 39.0887 224.75 1"
+send_character_message 2 "set_head_target -254.632 39.231 224.835 1"
+set_character_pos 2 -255.06 38.6517 225.022 106
+set_cam -254.481 39.2237 220.79 0.08 178.16 -0.01 17.7094
+say 2 "Raider" "Look, Z!"
+send_character_message 2 "set_head_target -254.862 39.231 223.797 1"
+send_character_message 3 "set_head_target -254.48 39.3156 223.178 1"
+say 3 "Other Raider" "You got protection for us, kitty cat?"
+set_cam -254.527 39.3073 222.401 -0.08 7.35 0 21.5322
+say 1 "Myst" "You two better leave.  Right now."
+send_character_message 2 "set_head_target -254.961 39.4364 223.588 1"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_2handneck.anm\""
+send_character_message 2 "set_torso_target -255.171 39.0887 224.685 1"
+set_cam -254.78 39.2233 220.923 0.08 -178.99 -0.01 21.5322
+say 2 "Raider" "Nah, nah. [wait 0.2] You better pay up.  Or else the wolves ain't gonna be happy!"
+send_character_message 3 "set_animation \"Data\Animations\r_dialogue_thoughtful.anm\""
+send_character_message 3 "set_torso_target -254.357 39.0965 224.437 1"
+say 3 "Other Raider" "They're gonna eat you for dinner if you don't, kitty cat!"
+send_character_message 1 "set_torso_target -255.35 38.9015 221.886 1"
+send_character_message 1 "set_head_target -254.817 39.016 222.627 1"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_jeer.anm\""
+set_cam -253.248 39.1523 222.879 -0.08 32.93 -0.03 22.2497
+say 1 "Myst" "Last warning.  Leave.  Or else."
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+set_character_pos 2 -255.06 38.6517 225.022 91
+set_character_pos 3 -254.34 38.4921 225.048 92
+send_character_message 3 "set_animation \"Data\Animations\r_dialogue_handhips.anm\""
+send_character_message 2 "set_eye_dir -254.832 39.3162 220.812 1"
+send_character_message 3 "set_eye_dir -254.78 39.3111 220.783 1"
+set_cam -252.473 39.2937 223.458 0.04 124.12 -0.09 22.0503
+say 3 "Other Raider" "Or else what?  You gonna scratch us? [wait 0.2] Ha[wait 0.2]ha[wait0.2]ha!"
+set_character_pos 2 -255.062 38.5125 225.022 91
+set_character_pos 3 -254.333 38.4071 225.048 92
+set_cam -254.119 38.7621 218.791 0.09 170.66 -0.03 27.8315
+send_character_message 3 "set_torso_target -254.357 39.0965 224.437 0.192364"
+send_character_message 3 "set_animation \"Data\Animations\r_combatidle2threat.anm\""
+send_character_message 2 "set_torso_target -254.74 39.0887 224.372 0.120685"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_jeer.anm\""
+say 2 "Raider" "Let's just get this over with."

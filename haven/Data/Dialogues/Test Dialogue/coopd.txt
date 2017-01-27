@@ -1,0 +1,32 @@
+#name "Test"
+#participants 2
+
+set_character_pos 2 346.324 37.6842 -367.164 -149
+set_character_pos 1 344.765 37.1779 -366.542 33
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_armcross.anm\""
+set_cam 345.889 37.7737 -365.982 0 68.45 0 43.0899
+say 1 "Calube" "Pssst.  Jack."
+send_character_message 2 "set_head_target 345.209 37.6829 -366.71 1"
+set_cam 345.572 37.9876 -365.947 0 -31.68 0 43.0899
+say 2 "Jack" "What?"
+send_character_message 1 "set_head_target 345.875 38.2384 -367.002 1"
+send_character_message 1 "set_eye_dir 345.757 38.0579 -366.85 1"
+set_cam 345.818 37.7261 -365.779 0 55.64 0 43.0899
+say 1 "Calube" "Guess what?"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_handneck.anm\""
+set_cam 345.824 37.9619 -365.796 0 -18.14 0 43.0899
+say 2 "Jack" "..?"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_point.anm\""
+set_cam 345.979 37.7674 -365.9 0 58.25 0 43.0899
+say 1 "Calube" "I said, guess what?"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_facepalm.anm\""
+set_cam 345.956 37.9405 -365.905 0 -11.48 0 43.0899
+say 2 "Jack" "*Sigh* .. [wait 0.5] What?"
+send_character_message 1 "set_animation \"Data\Animations\r_dialogue_handhips.anm\""
+send_character_message 1 "set_head_target 345.875 37.7936 -367.013 1"
+set_cam 346.182 37.9683 -365.831 -4.31 60.23 0 43.0899
+say 1"Calube" "Chicken butt."
+send_character_message 2 "set_head_target 345.031 37.6128 -367.537 1"
+send_character_message 2 "set_animation \"Data\Animations\r_dialogue_thoughtful.anm\""
+set_cam 345.924 37.9561 -365.697 -0.73 -14.49 4.15 43.0899
+say 2 "Jack" "You're a cunt."

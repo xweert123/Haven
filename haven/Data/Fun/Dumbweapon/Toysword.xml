@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Levels/Haven/Fun/Dumbweapon/Models/toysword.obj</Model>
+	<ColorMap>Data/Levels/Haven/Fun/Dumbweapon/Textures/Sword_Diff.tga</ColorMap>
+	<NormalMap>Data/Levels/Haven/Fun/Dumbweapon/Textures/Sword_Norm.tga</NormalMap>
+	<SharpnessMap>Data/Levels/Haven/Fun/Dumbweapon/Textures/Sword_Sharp.tga</SharpnessMap>
+  	<ShaderName>cubemap</ShaderName>
+</Object>
